@@ -1,0 +1,104 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9326004300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "User should navigate to login page successfully",
+        "description": "",
+        "id": "login-test;user-should-navigate-to-login-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 772398900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 197817000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on homepage",
+            "match": {
+              "location": "MyStepdefs.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 119773200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I accept cookies",
+            "match": {
+              "location": "MyStepdefs.iAcceptCookies()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 72483300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify company logo displayed on home page",
+            "match": {
+              "location": "MyStepdefs.verifyCompanyLogoDisplayedOnHomePage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 147474000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click on all games tab on the homepage",
+            "match": {
+              "location": "MyStepdefs.clickOnAllGamesTabOnTheHomepage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1627533500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "verify online slots text displayed",
+            "match": {
+              "location": "MyStepdefs.verifyOnlineSlotsTextDisplayed()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Login Test",
+    "description": "As user I want to go to homepage of Virgin Games website",
+    "id": "login-test",
+    "keyword": "Feature",
+    "uri": "homepage.feature"
+  }
+]
